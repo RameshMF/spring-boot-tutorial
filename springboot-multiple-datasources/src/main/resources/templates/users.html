@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	  xmlns:th="http://www.thymeleaf.org">
+      
+      <head>
+        <title>SpringBoot</title>
+    </head>
+    <body>
+    <div style="width: 20%; float:left">
+    	<h1>Users</h1>
+    	<hr/>
+    	<div th:each="user : ${users}">
+    		<h2>Name: <span th:text="${user.name}">Name</span></h2>
+    		<h4>Addresses</h4>
+    		<div th:each="addr : ${user.addresses}">
+    			<p th:text="${addr.city}">City</p>
+    		</div>	
+    	</div>
+    	</div>
+    	<div style="width: 80%; float:right">
+    	<h1>Orders</h1>
+    	<hr/>
+    	<div th:each="order : ${orders}">
+    		<h2>Customer Name: <span th:text="${order.customerName}">customerName</span></h2>
+    		<h4>Order Items</h4>
+    		<div th:each="item : ${order.orderItems}">
+    			<p th:text="${item.productCode}">productCode</p>
+    		</div>	
+    	</div>
+    	</div>
+    </body>
+    
+</html>

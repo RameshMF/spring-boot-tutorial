@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- <context:component-scan base-package="com.in28minutes.spring.basics"/> -->
+
+	<bean id="emailService"
+		class="net.guides.springboot2.springboot2xmlconfig.service.EmailService" />
+	<bean id="sMSService"
+		class="net.guides.springboot2.springboot2xmlconfig.service.SMSService" />
+	<bean id="twitterService"
+		class="net.guides.springboot2.springboot2xmlconfig.service.TwitterService" />
+	<bean id="messageProcessor"
+		class="net.guides.springboot2.springboot2xmlconfig.service.MessageProcessorImpl">
+		<property name="messageService" ref="twitterService"></property>
+	</bean>
+
+</beans>

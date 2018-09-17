@@ -1,0 +1,36 @@
+2018-09-13 08:42:09.815  INFO 9432 --- [main] n.g.s.s.Application                      : Starting Application on GS-2996 with PID 9432 (C:\Ramesh_Study\spring-boot\spring-boot-articles\spring-propertysource-example\target\classes started by GS-1787 in C:\Ramesh_Study\spring-boot\spring-boot-articles\spring-propertysource-example)
+2018-09-13 08:42:09.819 DEBUG 9432 --- [main] n.g.s.s.Application                      : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-13 08:42:09.820  INFO 9432 --- [main] n.g.s.s.Application                      : No active profile set, falling back to default profiles: default
+2018-09-13 08:42:09.861  INFO 9432 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a32de6c: startup date [Thu Sep 13 08:42:09 IST 2018]; root of context hierarchy
+2018-09-13 08:42:10.260 DEBUG 9432 --- [main] n.g.s.s.ProperySourceDemo                : com.mysql.jdbc.Driver
+2018-09-13 08:42:10.260 DEBUG 9432 --- [main] n.g.s.s.ProperySourceDemo                : jdbc:mysql://localhost:3306/dev_db
+2018-09-13 08:42:10.260 DEBUG 9432 --- [main] n.g.s.s.ProperySourceDemo                : root
+2018-09-13 08:42:10.261 DEBUG 9432 --- [main] n.g.s.s.ProperySourceDemo                : root
+2018-09-13 08:42:10.370  INFO 9432 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-13 08:42:10.390  INFO 9432 --- [main] n.g.s.s.Application                      : Started Application in 1.015 seconds (JVM running for 2.413)
+2018-09-13 08:42:10.395  INFO 9432 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a32de6c: startup date [Thu Sep 13 08:42:09 IST 2018]; root of context hierarchy
+2018-09-13 08:42:10.398  INFO 9432 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-13 08:55:16.397  INFO 12588 --- [main] n.g.s.s.Application                      : Starting Application on GS-2996 with PID 12588 (C:\Ramesh_Study\spring-boot\spring-boot-articles\spring-propertysource-example\target\classes started by GS-1787 in C:\Ramesh_Study\spring-boot\spring-boot-articles\spring-propertysource-example)
+2018-09-13 08:55:16.402 DEBUG 12588 --- [main] n.g.s.s.Application                      : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-13 08:55:16.403  INFO 12588 --- [main] n.g.s.s.Application                      : No active profile set, falling back to default profiles: default
+2018-09-13 08:55:16.443  INFO 12588 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@10db82ae: startup date [Thu Sep 13 08:55:16 IST 2018]; root of context hierarchy
+2018-09-13 08:55:16.859  INFO 12588 --- [main] n.g.s.s.ProperySourceDemo                : com.mysql.jdbc.Driver
+2018-09-13 08:55:16.860  INFO 12588 --- [main] n.g.s.s.ProperySourceDemo                : jdbc:mysql://localhost:3306/dev_db
+2018-09-13 08:55:16.860  INFO 12588 --- [main] n.g.s.s.ProperySourceDemo                : root
+2018-09-13 08:55:16.860  INFO 12588 --- [main] n.g.s.s.ProperySourceDemo                : root
+2018-09-13 08:55:16.991  INFO 12588 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-13 08:55:17.013  INFO 12588 --- [main] n.g.s.s.Application                      : Started Application in 1.013 seconds (JVM running for 2.525)
+2018-09-13 08:55:17.018  INFO 12588 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@10db82ae: startup date [Thu Sep 13 08:55:16 IST 2018]; root of context hierarchy
+2018-09-13 08:55:17.020  INFO 12588 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-13 16:47:49.558  INFO 9824 --- [main] n.g.s.s.Application                      : Starting Application on GS-2996 with PID 9824 (C:\Ramesh_Study\spring-boot\spring-boot-articles\spring-propertysource-example\target\classes started by GS-1787 in C:\Ramesh_Study\spring-boot\spring-boot-articles\spring-propertysource-example)
+2018-09-13 16:47:49.570 DEBUG 9824 --- [main] n.g.s.s.Application                      : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-13 16:47:49.570  INFO 9824 --- [main] n.g.s.s.Application                      : No active profile set, falling back to default profiles: default
+2018-09-13 16:47:49.614  INFO 9824 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a32de6c: startup date [Thu Sep 13 16:47:49 IST 2018]; root of context hierarchy
+2018-09-13 16:47:50.061  INFO 9824 --- [main] n.g.s.s.ProperySourceDemo                : com.mysql.jdbc.Driver
+2018-09-13 16:47:50.062  INFO 9824 --- [main] n.g.s.s.ProperySourceDemo                : jdbc:mysql://localhost:3306/dev_db
+2018-09-13 16:47:50.062  INFO 9824 --- [main] n.g.s.s.ProperySourceDemo                : root
+2018-09-13 16:47:50.062  INFO 9824 --- [main] n.g.s.s.ProperySourceDemo                : root
+2018-09-13 16:47:50.168  INFO 9824 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-13 16:47:50.183  INFO 9824 --- [main] n.g.s.s.Application                      : Started Application in 0.994 seconds (JVM running for 2.538)
+2018-09-13 16:47:50.187  INFO 9824 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a32de6c: startup date [Thu Sep 13 16:47:49 IST 2018]; root of context hierarchy
+2018-09-13 16:47:50.190  INFO 9824 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
