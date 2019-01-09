@@ -115,6 +115,36 @@ References</h2>
 <li><a href="https://start.spring.io/" target="_blank">https://start.spring.io/</a></li>
 <li><a href="https://spring.io/projects/spring-boot" target="_blank">https://spring.io/projects/spring-boot</a></li>
 </ul>
+
+<h2 style="text-align: left;">
+<span style="color: #cc0000;">Collections of Useful Links and Resources</span></h2>
+<div style="text-align: left;">
+<ul style="text-align: left;">
+<li><a href="https://dzone.com/articles/why-springboot" target="_blank">Why Spring Boot?</a></li>
+<li><a href="https://dzone.com/articles/how-springboot-autoconfiguration-magic-works" target="_blank">How Spring Boot Autoconfiguration Magic Works</a></li>
+<li><a href="https://dzone.com/articles/creating-a-spring-boot-project-with-eclipse-and-ma" target="_blank">Creating a Spring Boot Project With Eclipse and Maven</a></li>
+<li><a href="https://stackoverflow.com/questions/24113939/how-to-debug-spring-boot-application-with-eclipse" target="_blank">How to debug Spring Boot application with Eclipse?</a></li>
+<li><a href="https://stackoverflow.com/questions/25356781/spring-boot-remove-whitelabel-error-page" target="_blank">Spring Boot Remove Whitelabel Error Page</a></li>
+<li><a href="https://stackoverflow.com/questions/32922914/difference-between-spring-mvc-and-spring-boot" target="_blank">Difference between Spring MVC and Spring Boot</a></li>
+<li><a href="https://stackoverflow.com/questions/38723833/what-is-the-purpose-of-mvnw-and-mvnw-cmd-files" target="_blank">What is the purpose of mvnw and mvnw.cmd files?</a></li>
+<li><a href="https://stackoverflow.com/questions/19825946/how-to-add-a-filter-class-in-spring-boot" target="_blank">How to add a filter class in Spring Boot?</a></li>
+<li><a href="https://stackoverflow.com/questions/27381781/java-spring-boot-how-to-map-my-app-root-to-index-html" target="_blank">Java Spring Boot: How to map my app root (“/”) to index.html?</a></li>
+<li><a href="https://stackoverflow.com/questions/29956175/json-java-8-localdatetime-format-in-spring-boot" target="_blank">JSON Java 8 LocalDateTime format in Spring Boot</a></li>
+<li><a href="https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data" target="_blank">Spring Boot - Loading Initial Data</a></li>
+<li><a href="https://stackoverflow.com/questions/23984009/disable-logback-in-springboot" target="_blank">Disable Logback in SpringBoot</a></li>
+<li><a href="https://stackoverflow.com/questions/22944144/programmatically-shut-down-spring-boot-application" target="_blank">Programmatically shut down Spring Boot application</a></li>
+<li><a href="https://stackoverflow.com/questions/28821521/configure-datasource-programmatically-in-spring-boot" target="_blank">Configure DataSource programmatically in Spring Boot</a></li>
+<li><a href="https://www.baeldung.com/spring-boot-custom-error-page" target="_blank">Spring Boot: Customize Whitelabel Error Page</a></li>
+<li><a href="https://www.baeldung.com/spring-boot-shutdown" target="_blank">Shutdown a Spring Boot Application</a></li>
+<li><a href="https://www.baeldung.com/spring-boot-internationalization" target="_blank">Guide to Internationalization in Spring Boot</a></li>
+<li><a href="https://www.baeldung.com/spring-boot-custom-starter" target="_blank">Creating a Custom Starter with Spring Boot</a></li>
+<li><a href="https://www.baeldung.com/spring-boot-security-autoconfiguration" target="_blank">Spring Boot Security Auto-Configuration</a></li>
+</ul>
+<div>
+<h3>
+<span style="color: #cc0000;"><a href="http://www.javaguides.net/2018/10/free-open-source-projects-using-spring-boot.html" target="_blank">10+ Free Open Source Projects Using Spring Boot</a>&nbsp;(Very Useful)</span></h3>
+</div>
+</div>
 </div>
 </div>
 </div>
