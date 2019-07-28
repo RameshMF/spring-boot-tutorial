@@ -1,5 +1,15 @@
 <h1> Spring Boot Tutorials/Articles/Guides </h1>
 
+<h2> Latest articles/tutorials/guides from <a href="https://www.javaguides.net/"> Java Guides</a> </h2>
+
+<a href="https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html" rel="nofollow" target="_blank">Spring Boot Thymeleaf CRUD Example Tutorial</a>
+
+<a href="https://www.javaguides.net/2019/02/spring-boot-angular-6-crud-example.html" target="_blank">Spring Boot + Angular 6 CRUD Example</a>
+
+<a href="https://www.javaguides.net/2019/02/spring-boot-2-angular-7-crud-example-tutorial.html" target="_blank">Spring Boot 2 + Angular 7 CRUD Example Tutorial</a>
+
+
+
 <div dir="ltr" style="text-align: left;" trbidi="on">
 <h2 style="text-align: left;">
 Spring Boot Basics</h2>
