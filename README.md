@@ -2,6 +2,13 @@
 
 <h2> Latest articles/tutorials/guides from <a href="https://www.javaguides.net/"> Java Guides</a> </h2>
 
+<a href="https://www.javaguides.net/2019/08/spring-boot-spring-jdbc-mysql-crud-example.html" target="_blank">Spring Boot + Spring JDBC + MySQL CRUD Example
+</a>
+
+<a href="https://www.javaguides.net/2019/06/spring-boot-angular-7-crud-example-tutorial.html" target="_blank">Spring Boot + Angular 8 Example Tutorial</a>
+
+<a href="https://www.javaguides.net/2019/06/spring-boot-angular-8-websocket-example-tutorial.html" target="_blank">Spring Boot + Angular 8 + WebSocket Example Tutorial</a>
+
 <a href="https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html" rel="nofollow" target="_blank">Spring Boot Thymeleaf CRUD Example Tutorial</a>
 
 <a href="https://www.javaguides.net/2019/02/spring-boot-angular-6-crud-example.html" target="_blank">Spring Boot + Angular 6 CRUD Example</a>
