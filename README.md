@@ -1,6 +1,8 @@
 <h1>YouTube Channel - Spring Boot Tutorial</h1>
 <p>Subscribe for future video and updates</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGRDMO4rOGcNSBOJOlrgQqGpIgo6_VZgR" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<a href="https://www.youtube.com/playlist?list=PLGRDMO4rOGcNSBOJOlrgQqGpIgo6_VZgR" target="_blank">Spring Boot Tutorial on YouTube
+</a>
 
 <h1> Spring Boot Tutorials/Articles/Guides </h1>
 
