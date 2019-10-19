@@ -1,9 +1,7 @@
-# Beginning SpringBoot 2
+# Spring Boot + Spring MVC + Role Based Spring Security + Hibernate + Thymeleaf + MySQL Tutorial
 
 
-### Chapter 13 : Securing Web Applications using SpringBoot
-
-**springboot-thymeleaf-security-demo**: This module demonstrates how to secure a SpringBoot +Thymeleaf based web application using Spring Security.
+**springboot-thymeleaf-security-demo**: This tutorial demonstrates how to secure a SpringBoot +Thymeleaf based web application using Spring Security.
 
 #### How to run?
 
