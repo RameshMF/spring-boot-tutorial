@@ -10,3 +10,6 @@ springboot-thymeleaf-security-demo> mvn spring-boot:run
 Go to http://localhost:8080/
 
 Login with admin@gmail.com/admin (or) user@gmail.com/user
+
+
+Blog post - https://www.javaguides.net/2018/09/spring-boot-spring-mvc-role-based-spring-security-jpa-thymeleaf-mysql-tutorial.html
