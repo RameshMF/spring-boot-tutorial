@@ -4,6 +4,28 @@
 <a href="https://www.youtube.com/playlist?list=PLGRDMO4rOGcNSBOJOlrgQqGpIgo6_VZgR" target="_blank">Spring Boot Tutorial on YouTube
 </a>
 
+# Newly published spring boot tutorials (2020)
+<ul style="text-align: left;">
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-crud-web-application-with-thymeleaf.html" target="_blank">Spring Boot CRUD Web Application with Thymeleaf, Spring MVC, Spring Data JPA, Hibernate, MySQL</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part1.html"></a><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part1.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 1</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part2.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 2</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part3.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 3</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part4.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 4</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part5.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 5</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part6.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 6</a>&nbsp;</li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-crud-database-real-time-project-part7.html">Spring Boot Thymeleaf CRUD Database Real-Time Project - PART 7</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-jsp-example-tutorial.html" target="_blank">Spring Boot JSP Example Tutorial</a></li>
+<li><a href="https://www.javaguides.net/2020/05/spring-boot-thymeleaf-example-tutorial.html" target="_blank">Spring Boot Thymeleaf Example Tutorial</a></li>
+<li><a href="https://www.javaguides.net/2020/04/jpa-hibernate-one-to-many-mapping-example-with-spring-boot.html">JPA, Hibernate One to Many Mapping Example with Spring Boot and MySQL Database</a></li>
+<li><a href="https://www.javaguides.net/2020/04/deploying-spring-boot-war-file-with-jsp-to-tomcat.html">Deploying Spring Boot WAR file with JSP to Tomcat</a></li>
+<li><a href="https://www.javaguides.net/2020/04/jpa-and-hibernate-many-to-many-mapping-spring-boot.html">JPA and Hibernate Many to Many Mapping with Spring Boot - @ManyToMany and @JoinTable</a></li>
+<li><a href="https://www.javaguides.net/2020/04/spring-boot-file-upload-download-rest-api-example.html">Spring Boot File Upload / Download Rest API Example</a></li>
+<li><a href="https://www.javaguides.net/2020/04/spring-boot-mysql-jpa-hibernate-restful-crud-api-tutorial.html">Spring Boot, MySQL, JPA, Hibernate Restful CRUD API Tutorial</a></li>
+<li><a href="https://www.javaguides.net/2020/04/spring-boot-h2-jpa-hibernate-restful-crud-api-tutorial.html">Spring Boot, H2, JPA, Hibernate Restful CRUD API Tutorial</a></li>
+  <li><a href="https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-one-mapping-example.html"></a><a href="https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-one-mapping-example.html">Spring Boot + JPA/Hibernate One to One Mapping Example</a> </li>
+  <li><a href="https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-one-mapping-example.html"></a><a href="https://www.javaguides.net/2019/08/spring-boot-jpa-hibernate-one-to-one-mapping-example.html">Spring Boot + JPA/Hibernate One to One Mapping Example</a> </li>
+  <li><a href="https://www.javaguides.net/2019/08/spring-boot-hibernate-many-to-many-example.html">Spring Boot Hibernate Many to Many Example</a></li>
+</ul>
 <h1> Spring Boot Tutorials/Articles/Guides </h1>
 
 <h2> Latest articles/tutorials/guides from <a href="https://www.javaguides.net/"> Java Guides</a> </h2>
@@ -106,3 +128,18 @@ Spring Boot Mini Projects</h2>
 </ul>
 </div>
 </div>
+<h1>Spring Boot + Angular 9 Tutorials // Latest </h1>
+<ul style="text-align: left;"><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-example-tutorial.html"></a>
+<li><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-example-tutorial.html"></a><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-example-tutorial.html">Spring Boot + Angular 9 CRUD Example Tutorial</a> - Main Tutorial</li>
+<li><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-part-1-develop-springboot-crud-rest-apis.html">Spring Boot + Angular 9 CRUD Tutorial - Part 1 - Develop Spring Boot CRUD Rest APIs</a></li>
+<li><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-part-2-create-angular-9-app.html">Spring Boot + Angular 9 CRUD - Part 2 - Create an Angular 9 App</a></li>
+<li><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-part-3-develop-angular-9-crud-operations.html">Spring Boot + Angular 9 CRUD - Part 3 - Develop Angular 9 CRUD Operations</a></li>
+<li><a href="https://www.javaguides.net/2020/01/spring-boot-angular-9-crud-part-4-angular-9-crud-app-configuration.html">Spring Boot + Angular 9 CRUD, Part 4 - Angular 9 CRUD App Configuration</a></li>
+<li><a href="https://www.javaguides.net/2020/01/spring-boot-angular-8-crud-part-5-running-angular-9-crud-app.html">Spring Boot 2 + Angular 9 CRUD, Part 5 - Running Angular 9 CRUD App</a></li>
+</ul>
+
+<h1> Spring Boot + MongoDB </h1>
+<ul style="text-align: left;"><b><a href="https://www.javaguides.net/2019/12/spring-boot-angular-mongodb-crud-example-tutorial.html"></a>
+<li><a href="https://www.javaguides.net/2019/12/spring-boot-angular-mongodb-crud-example-tutorial.html"><b></b></a><b><a href="https://www.javaguides.net/2019/12/spring-boot-angular-mongodb-crud-example-tutorial.html">Spring Boot + Angular + MongoDB CRUD Example Tutorial</a></b></li>
+<li><b><a href="https://www.javaguides.net/2019/12/spring-boot-mongodb-crud-example-tutorial.html">Spring Boot + MongoDB CRUD Tutorial</a></b></li>
+</b></ul>
