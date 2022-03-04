@@ -1,13 +1,13 @@
-name: springboot-thymeleaf-security-demo
+name: springboot-stomp-websocket
 
 on:
   push:
     paths:
-      - "springboot-thymeleaf-security-demo/**"
+      - "springboot-stomp-websocket/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot-thymeleaf-security-demo/**"
+      - "springboot-stomp-websocket/**"
     types:
       - opened
       - synchronize
@@ -30,6 +30,6 @@ jobs:
           cache: "gradle"
       - name: Build and analyze
         run: |
-          cd springboot-thymeleaf-security-demo
+          cd springboot-stomp-websocket
           chmod +x gradlew
           ./gradlew clean build --info
