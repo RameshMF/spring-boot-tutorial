@@ -1,13 +1,13 @@
-name: spring-boot-crud-rest
+name: spring-propertysource-example
 
 on:
   push:
     paths:
-      - "spring-boot-crud-rest/**"
+      - "spring-propertysource-example/**"
     branches: [master]
   pull_request:
     paths:
-      - "spring-boot-crud-rest/**"
+      - "spring-propertysource-example/**"
     types:
       - opened
       - synchronize
@@ -28,13 +28,8 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
-      - name: Start up databases via docker compose
-        run: |
-          cd spring-boot-crud-rest
-          docker compose up -d
-          sleep 15
-          docker ps -a
       - name: Build and analyze
         run: |
-          cd spring-boot-crud-rest
-          mvn clean package
+          cd spring-propertysource-example
+          chmod +x mvnw
+          ./mvnw clean package
