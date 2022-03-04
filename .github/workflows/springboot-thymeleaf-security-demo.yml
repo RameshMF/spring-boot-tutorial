@@ -27,9 +27,8 @@ jobs:
         with:
           java-version: 17
           distribution: "adopt"
-          cache: "gradle"
+          cache: "maven"
       - name: Build and analyze
         run: |
           cd springboot-thymeleaf-security-demo
-          chmod +x gradlew
-          ./gradlew clean build --info
+          mvn clean package
