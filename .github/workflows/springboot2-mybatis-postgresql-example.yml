@@ -1,13 +1,13 @@
-name: springboot2-mybatis-mysql-example
+name: springboot2-mybatis-postgresql-example
 
 on:
   push:
     paths:
-      - "springboot2-mybatis-mysql-example/**"
+      - "springboot2-mybatis-postgresql-example/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot2-mybatis-mysql-example/**"
+      - "springboot2-mybatis-postgresql-example/**"
     types:
       - opened
       - synchronize
@@ -28,8 +28,14 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
+      - name: Start up databases via docker compose
+        run: |
+          cd springboot2-mybatis-postgresql-example
+          docker compose up -d
+          sleep 15
+          docker ps -a
       - name: Build and analyze
         run: |
-          cd springboot2-mybatis-mysql-example
+          cd springboot2-mybatis-postgresql-example
           chmod +x mvnw
           ./mvnw clean package
