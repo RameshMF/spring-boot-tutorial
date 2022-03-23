@@ -1,13 +1,13 @@
-name: springboot2-jdbc-crud-mysql-example
+name: springboot2-jdbc-crud-postgresql-example
 
 on:
   push:
     paths:
-      - "springboot2-jdbc-crud-mysql-example/**"
+      - "springboot2-jdbc-crud-postgresql-example/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot2-jdbc-crud-mysql-example/**"
+      - "springboot2-jdbc-crud-postgresql-example/**"
     types:
       - opened
       - synchronize
@@ -28,7 +28,13 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
+      - name: Start up databases via docker compose
+        run: |
+          cd springboot2-jdbc-crud-postgresql-example
+          docker compose up -d
+          sleep 15
+          docker ps -a
       - name: Build and analyze
         run: |
-          cd springboot2-jdbc-crud-mysql-example
+          cd springboot2-jdbc-crud-postgresql-example
           mvn clean package
