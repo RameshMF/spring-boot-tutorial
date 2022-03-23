@@ -1,0 +1,40 @@
+name: springboot-hibernate-one-one-mapping
+
+on:
+  push:
+    paths:
+      - "springboot-hibernate-one-one-mapping/**"
+    branches: [master]
+  pull_request:
+    paths:
+      - "springboot-hibernate-one-one-mapping/**"
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  build:
+    name: Run Unit & Integration Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3.0.0
+        with:
+          java-version: 17
+          distribution: "adopt"
+          cache: "maven"
+      - name: Start up databases via docker compose
+        run: |
+          cd springboot-hibernate-one-one-mapping
+          docker compose up -d
+          sleep 15
+          docker ps -a
+      - name: Build and analyze
+        run: |
+          cd springboot-hibernate-one-one-mapping
+          mvn clean package
