@@ -28,6 +28,12 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
+      - name: Start up databases via docker compose
+        run: |
+          cd springboot2-jpa-auditing
+          docker compose up -d
+          sleep 15
+          docker ps -a
       - name: Build and analyze
         run: |
           cd springboot2-jpa-auditing
