@@ -1,13 +1,13 @@
-name: springboot2-jpa-swagger2
+name: springboot2-jpa-swagger3
 
 on:
   push:
     paths:
-      - "springboot2-jpa-swagger2/**"
+      - "springboot2-jpa-swagger3/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot2-jpa-swagger2/**"
+      - "springboot2-jpa-swagger3/**"
     types:
       - opened
       - synchronize
@@ -28,7 +28,13 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
+      - name: Start up databases via docker compose
+        run: |
+          cd springboot2-jpa-swagger3
+          docker compose up -d
+          sleep 15
+          docker ps -a
       - name: Build and analyze
         run: |
-          cd springboot2-jpa-swagger2
+          cd springboot2-jpa-swagger3
           mvn clean package
