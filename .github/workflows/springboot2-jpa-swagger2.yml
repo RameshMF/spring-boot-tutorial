@@ -1,13 +1,13 @@
-name: springboot-upload-download-file-database
+name: springboot2-jpa-swagger2
 
 on:
   push:
     paths:
-      - "springboot-upload-download-file-database/**"
+      - "springboot2-jpa-swagger2/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot-upload-download-file-database/**"
+      - "springboot2-jpa-swagger2/**"
     types:
       - opened
       - synchronize
@@ -28,13 +28,7 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
-      - name: Start up databases via docker compose
-        run: |
-          cd springboot-upload-download-file-database
-          docker compose up -d
-          sleep 15
-          docker ps -a
       - name: Build and analyze
         run: |
-          cd springboot-upload-download-file-database
+          cd springboot2-jpa-swagger2
           mvn clean package

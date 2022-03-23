@@ -1,13 +1,13 @@
-name: springboot-upload-download-file-database
+name: springboot2-postgresql-jpa-hibernate-crud-example
 
 on:
   push:
     paths:
-      - "springboot-upload-download-file-database/**"
+      - "springboot2-postgresql-jpa-hibernate-crud-example/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot-upload-download-file-database/**"
+      - "springboot2-postgresql-jpa-hibernate-crud-example/**"
     types:
       - opened
       - synchronize
@@ -30,11 +30,12 @@ jobs:
           cache: "maven"
       - name: Start up databases via docker compose
         run: |
-          cd springboot-upload-download-file-database
+          cd springboot2-postgresql-jpa-hibernate-crud-example
           docker compose up -d
           sleep 15
           docker ps -a
       - name: Build and analyze
         run: |
-          cd springboot-upload-download-file-database
-          mvn clean package
+          cd springboot2-postgresql-jpa-hibernate-crud-example
+          chmod +x mvnw
+          ./mvnw clean package

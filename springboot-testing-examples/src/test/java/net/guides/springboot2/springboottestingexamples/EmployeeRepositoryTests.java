@@ -1,19 +1,15 @@
 package net.guides.springboot2.springboottestingexamples;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import net.guides.springboot2.springboottestingexamples.model.Employee;
+import net.guides.springboot2.springboottestingexamples.repository.EmployeeRepository;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
-import org.springframework.test.context.junit4.SpringRunner;
 
-import net.guides.springboot2.springboottestingexamples.model.Employee;
-import net.guides.springboot2.springboottestingexamples.repository.EmployeeRepository;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@RunWith(SpringRunner.class)
 @DataJpaTest
 public class EmployeeRepositoryTests {
 

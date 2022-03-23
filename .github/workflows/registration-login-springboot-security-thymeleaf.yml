@@ -1,13 +1,13 @@
-name: springboot-upload-download-file-database
+name: registration-login-springboot-security-thymeleaf
 
 on:
   push:
     paths:
-      - "springboot-upload-download-file-database/**"
+      - "registration-login-springboot-security-thymeleaf/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot-upload-download-file-database/**"
+      - "registration-login-springboot-security-thymeleaf/**"
     types:
       - opened
       - synchronize
@@ -22,19 +22,13 @@ jobs:
         with:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
 
-      - name: Set up JDK 17
+      - name: Set up JDK 11
         uses: actions/setup-java@v3.0.0
         with:
-          java-version: 17
+          java-version: 11
           distribution: "adopt"
           cache: "maven"
-      - name: Start up databases via docker compose
-        run: |
-          cd springboot-upload-download-file-database
-          docker compose up -d
-          sleep 15
-          docker ps -a
       - name: Build and analyze
         run: |
-          cd springboot-upload-download-file-database
+          cd registration-login-springboot-security-thymeleaf
           mvn clean package
