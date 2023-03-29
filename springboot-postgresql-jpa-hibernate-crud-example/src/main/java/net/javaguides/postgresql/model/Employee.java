@@ -1,4 +1,4 @@
-package net.guides.springboot2.crud.model;
+package net.javaguides.postgresql.model;
 
 import jakarta.persistence.*;
 

@@ -1,4 +1,4 @@
-package net.guides.springboot2.crud.exception;
+package net.javaguides.mssql.exception;
 
 import java.util.Date;
 

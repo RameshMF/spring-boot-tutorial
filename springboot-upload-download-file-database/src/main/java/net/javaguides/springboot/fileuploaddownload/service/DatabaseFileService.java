@@ -10,7 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 import net.javaguides.springboot.fileuploaddownload.exception.FileNotFoundException;
 import net.javaguides.springboot.fileuploaddownload.exception.FileStorageException;
 import net.javaguides.springboot.fileuploaddownload.model.DatabaseFile;
-import net.javaguides.springboot.fileuploaddownload.repository.DatabaseFileRepository;
+import net.javaguides.springboot.fileuploaddownload.service.repository.DatabaseFileRepository;
 
 @Service
 public class DatabaseFileService {

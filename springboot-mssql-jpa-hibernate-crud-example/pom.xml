@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.guides.springboot2</groupId>
-	<artifactId>springboot2-mssql-jpa-hibernate-crud-example</artifactId>
+	<artifactId>springboot-mssql-jpa-hibernate-crud-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot2-mssql-jpa-hibernate-crud-example</name>
-	<description>springboot2-mssql-jpa-hibernate-crud-example</description>
+	<name>springboot-mssql-jpa-hibernate-crud-example</name>
+	<description>springboot-mssql-jpa-hibernate-crud-example</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -39,11 +39,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
-			<version>12.2.0.jre11</version>
+			<scope>runtime</scope>
 		</dependency>
 		
 		<dependency>

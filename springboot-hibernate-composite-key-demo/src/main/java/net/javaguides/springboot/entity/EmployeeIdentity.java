@@ -2,7 +2,7 @@ package net.javaguides.springboot.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.Embeddable;
+import jakarta.persistence.Embeddable;
 
 @Embeddable
 public class EmployeeIdentity implements Serializable {

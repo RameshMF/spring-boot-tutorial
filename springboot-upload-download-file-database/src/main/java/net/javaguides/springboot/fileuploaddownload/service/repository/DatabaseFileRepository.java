@@ -1,4 +1,4 @@
-package net.javaguides.springboot.fileuploaddownload.repository;
+package net.javaguides.springboot.fileuploaddownload.service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

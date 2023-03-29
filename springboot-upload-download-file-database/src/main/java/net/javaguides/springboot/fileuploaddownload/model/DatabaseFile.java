@@ -2,7 +2,7 @@ package net.javaguides.springboot.fileuploaddownload.model;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "files")

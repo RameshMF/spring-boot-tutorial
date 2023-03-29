@@ -9,8 +9,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot2-postgresql-jpa-hibernate-crud-example</name>
-	<description>springboot2-postgresql-jpa-hibernate-crud-example</description>
+	<name>springboot-postgresql-jpa-hibernate-crud-example</name>
+	<description>springboot-postgresql-jpa-hibernate-crud-example</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -1,4 +1,4 @@
-package net.guides.springboot2.crud.controller;
+package net.javaguides.postgresql.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,6 +6,9 @@ import java.util.Map;
 
 import jakarta.validation.Valid;
 
+import net.javaguides.postgresql.exception.ResourceNotFoundException;
+import net.javaguides.postgresql.model.Employee;
+import net.javaguides.postgresql.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,10 +19,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import net.guides.springboot2.crud.exception.ResourceNotFoundException;
-import net.guides.springboot2.crud.model.Employee;
-import net.guides.springboot2.crud.repository.EmployeeRepository;
 
 @RestController
 @RequestMapping("/api/v1")
