@@ -27,6 +27,26 @@
             "projectName": "org.springframework-springboot-stomp-websocket",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Springboot2Swagger3Application<net.guides.springboot2-springboot2-jpa-swagger3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "net.guides.springboot2.springboot2swagger3.Springboot2Swagger3Application",
+            "projectName": "net.guides.springboot2-springboot2-jpa-swagger3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootThymeleafSecurityDemoApplication<com.apress-springboot-thymeleaf-security-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "net.javaguides.springbootsecurity.SpringbootThymeleafSecurityDemoApplication",
+            "projectName": "com.apress-springboot-thymeleaf-security-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
