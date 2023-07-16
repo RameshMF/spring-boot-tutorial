@@ -6,6 +6,32 @@ create table if not exists persistent_logins (
   last_used timestamp not null
 );
 
+CREATE TABLE IF NOT EXISTS users (
+  id INT PRIMARY KEY,
+  name VARCHAR(256) NOT NULL,
+  email VARCHAR(256) NOT NULL,
+  password VARCHAR(256) NOT NULL,
+  CONSTRAINT uc_users_name UNIQUE (name)
+);
+
+CREATE TABLE IF NOT EXISTS roles (
+  id INT PRIMARY KEY,
+  name VARCHAR(64) NOT NULL,
+  CONSTRAINT uc_roles_name UNIQUE (name)
+);
+
+CREATE TABLE IF NOT EXISTS user_role (
+  user_id INT,
+  role_id INT,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (role_id) REFERENCES roles(id)
+);
+
+create table if not exists messages (
+  id int primary key,
+  content varchar(256) not null
+);
+
 delete from  user_role;
 delete from  roles;
 delete from  users;
