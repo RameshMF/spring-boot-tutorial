@@ -17,6 +17,9 @@ jobs:
   build:
     name: Run Unit & Integration Tests
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: spring-aop-advice-examples
     steps:
       - uses: actions/checkout@v3
         with:
@@ -29,6 +32,4 @@ jobs:
           distribution: "adopt"
           cache: "maven"
       - name: Build and analyze
-        run: |
-          cd spring-aop-advice-examples
-          mvn clean package
+        run: ./mvnw clean package

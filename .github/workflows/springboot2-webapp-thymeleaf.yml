@@ -17,25 +17,19 @@ jobs:
   build:
     name: Run Unit & Integration Tests
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: springboot2-webapp-thymeleaf
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
 
-      - name: Set up JDK 18
+      - name: Set up JDK 17
         uses: actions/setup-java@v3.11.0
         with:
-          java-version: 18
+          java-version: 17
           distribution: "zulu"
           cache: "maven"
-      - name: Start up databases via docker compose
-        run: |
-          cd springboot2-webapp-thymeleaf
-          docker compose up -d
-          sleep 15
-          docker ps -a
       - name: Build and analyze
-        run: |
-          cd springboot2-webapp-thymeleaf
-          chmod +x mvnw
-          ./mvnw clean package
+        run: ./mvnw clean package

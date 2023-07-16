@@ -17,6 +17,9 @@ jobs:
   build:
     name: Run Unit & Integration Tests
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: spring-boot-crud-rest
     steps:
       - uses: actions/checkout@v3
         with:
@@ -28,13 +31,5 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
-      - name: Start up databases via docker compose
-        run: |
-          cd spring-boot-crud-rest
-          docker compose up -d
-          sleep 15
-          docker ps -a
       - name: Build and analyze
-        run: |
-          cd spring-boot-crud-rest
-          mvn clean package
+        run: ./mvnw clean package

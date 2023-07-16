@@ -10,7 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import net.javaguides.springboot.entity.Gender;
 import net.javaguides.springboot.entity.User;
 import net.javaguides.springboot.entity.UserProfile;
-import net.javaguides.springboot.repository.UserProfileRepository;
 import net.javaguides.springboot.repository.UserRepository;
 
 @SpringBootApplication

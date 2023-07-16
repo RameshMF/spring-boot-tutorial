@@ -17,6 +17,9 @@ jobs:
   build:
     name: Run Unit & Integration Tests
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: springboot-hibernate-one-one-mapping
     steps:
       - uses: actions/checkout@v3
         with:
@@ -28,13 +31,5 @@ jobs:
           java-version: 17
           distribution: "adopt"
           cache: "maven"
-      - name: Start up databases via docker compose
-        run: |
-          cd springboot-hibernate-one-one-mapping
-          docker compose up -d
-          sleep 15
-          docker ps -a
       - name: Build and analyze
-        run: |
-          cd springboot-hibernate-one-one-mapping
-          mvn clean package
+        run: ./mvnw clean package
