@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestApplication",
+            "request": "launch",
+            "mainClass": "net.guides.springboot.loginregistrationspringbootauthjsp.TestApplication",
+            "projectName": "springboot.javaguides-login-registration-springboot-hibernate-jsp-auth"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<springboot.javaguides-login-registration-springboot-hibernate-jsp-auth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "net.guides.springboot.loginregistrationspringbootauthjsp.Application",
+            "projectName": "springboot.javaguides-login-registration-springboot-hibernate-jsp-auth",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=45033 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=springboot.javaguides-login-registration-springboot-hibernate-jsp-auth"
+        }
+    ]
+}
