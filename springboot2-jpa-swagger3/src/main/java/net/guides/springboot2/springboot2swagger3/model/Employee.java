@@ -1,4 +1,6 @@
-package net.guides.springboot2.springboot2swagger2.model;
+package net.guides.springboot2.springboot2swagger3.model;
+
+import io.swagger.v3.oas.annotations.media.Schema;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,24 +9,21 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
-
 @Entity
 @Table(name = "employees")
-@ApiModel(description="All details about the Employee. ")
+@Schema(description="All details about the Employee. ")
 public class Employee {
 
-	@ApiModelProperty(notes = "The database generated employee ID")
+	@Schema(description = "The database generated employee ID")
 	private long id;
 
-	@ApiModelProperty(notes = "The employee first name")
+	@Schema(description = "The employee first name")
 	private String firstName;
 
-	@ApiModelProperty(notes = "The employee last name")
+	@Schema(description = "The employee last name")
 	private String lastName;
 
-	@ApiModelProperty(notes = "The employee email id")
+	@Schema(description = "The employee email id")
 	private String emailId;
 
 	public Employee() {
