@@ -1,13 +1,13 @@
-name: spring-propertysource-example
+name: springboot-helloworld-application
 
 on:
   push:
     paths:
-      - "spring-propertysource-example/**"
+      - "springboot-angular8-helloworld-example/springboot-helloworld-application/**"
     branches: [master]
   pull_request:
     paths:
-      - "spring-propertysource-example/**"
+      - "springboot-angular8-helloworld-example/springboot-helloworld-application/**"
     types:
       - opened
       - synchronize
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:      
-          working-directory: spring-propertysource-example
+          working-directory: springboot-angular8-helloworld-example/springboot-helloworld-application
     steps:
       - uses: actions/checkout@v3
         with:
