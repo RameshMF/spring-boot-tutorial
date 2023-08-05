@@ -46,7 +46,7 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
-            <version>5.3.0</version>
+            <version>5.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
