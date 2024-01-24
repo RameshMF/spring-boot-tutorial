@@ -1,0 +1,40 @@
+name: springboot2-mssql-jpa-hibernate-crud-example
+
+on:
+  push:
+    paths:
+      - "springboot2-mssql-jpa-hibernate-crud-example/**"
+    branches: [master]
+  pull_request:
+    paths:
+      - "springboot2-mssql-jpa-hibernate-crud-example/**"
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  build:
+    name: Run Unit & Integration Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+        with:
+          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+
+      - name: Set up JDK 18
+        uses: actions/setup-java@v4.0.0
+        with:
+          java-version: 18
+          distribution: "zulu"
+          cache: "maven"
+      - name: Start up databases via docker compose
+        run: |
+          cd springboot2-mssql-jpa-hibernate-crud-example
+          docker compose up -d
+          sleep 15
+          docker ps -a
+      - name: Build and analyze
+        run: |
+          cd springboot2-mssql-jpa-hibernate-crud-example
+          mvn clean package
