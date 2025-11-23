@@ -19,9 +19,12 @@ import net.guides.springboot.loginregistrationspringbootauthjsp.repository.UserR
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService{
 	
-	@Autowired
-	private UserRepository userRepository;
+	private final UserRepository userRepository;
 	
+    public UserDetailsServiceImpl(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
     @Override
     @Transactional(readOnly = true)
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

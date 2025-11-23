@@ -15,5 +15,5 @@ public interface EmployeeRepository extends JpaRepository<Employee, EmployeeIden
 	 * Spring Data JPA will automatically parse this method name and create a query
 	 * from it
 	 */
-	List<Employee> findByEmployeeIdentityCompanyId(String companyId);
+	List<Employee> findByIdCompanyId(String companyId);
 }

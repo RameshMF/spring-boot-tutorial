@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "includeForks": true,
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}

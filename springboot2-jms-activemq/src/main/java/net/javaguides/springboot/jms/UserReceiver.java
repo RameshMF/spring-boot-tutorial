@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-import javax.jms.Message;
+import jakarta.jms.Message;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
